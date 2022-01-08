@@ -1,0 +1,25 @@
+{
+  "name": "dicoding_sub1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "migrate": "node-pg-migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "dotenv": "^10.0.0",
+    "joi": "^17.5.0",
+    "nanoid": "^3.1.30",
+    "node-pg-migrate": "^6.2.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "nodemon": "^2.0.15"
+  }
+}
